@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Smart Edge Panel</string>
+    <string name="service_channel_name">Smart Edge Panel Service</string>
+    <string name="service_channel_desc">Keeps the persistent edge panel handle active over apps.</string>
+    <string name="notification_title">Smart Edge Panel Active</string>
+    <string name="notification_content">Swipe edge handle to reveal quick apps &amp; tools.</string>
+    <string name="action_stop">Stop Service</string>
+    <string name="action_open">Open Settings</string>
+</resources>
