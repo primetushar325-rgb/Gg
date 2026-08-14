@@ -1,0 +1,239 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smartedge"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Query all launchable third-party apps -->
+12    <queries>
+12-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:6:5-11:15
+13        <intent>
+13-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:7:9-10:18
+14            <action android:name="android.intent.action.MAIN" />
+14-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:8:13-65
+14-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:8:21-62
+15
+16            <category android:name="android.intent.category.LAUNCHER" />
+16-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:9:13-73
+16-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:9:23-70
+17        </intent>
+18    </queries>
+19
+20    <!-- Essential System Permissions -->
+21    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+21-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:14:5-78
+21-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:14:22-75
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+22-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:15:5-77
+22-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:15:22-74
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+23-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:16:5-89
+23-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:16:22-86
+24    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+24-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:17:5-77
+24-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:17:22-74
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:18:5-81
+25-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:18:22-78
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:19:5-66
+26-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:19:22-63
+27    <uses-permission android:name="android.permission.FLASHLIGHT" />
+27-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:20:5-69
+27-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:20:22-66
+28    <uses-permission android:name="android.permission.CAMERA" />
+28-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:21:5-65
+28-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:21:22-62
+29
+30    <uses-feature
+30-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:23:5-85
+31        android:name="android.hardware.camera"
+31-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:23:19-57
+32        android:required="false" />
+32-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:23:58-82
+33    <uses-feature
+33-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:24:5-91
+34        android:name="android.hardware.camera.flash"
+34-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:24:19-63
+35        android:required="false" />
+35-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:24:64-88
+36
+37    <permission
+37-->[androidx.core:core:1.15.0] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/e30ee75a0e1cd2ae4b6d69b0a3850c7c/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+38        android:name="com.example.smartedge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.15.0] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/e30ee75a0e1cd2ae4b6d69b0a3850c7c/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.15.0] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/e30ee75a0e1cd2ae4b6d69b0a3850c7c/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.example.smartedge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.15.0] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/e30ee75a0e1cd2ae4b6d69b0a3850c7c/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.15.0] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/e30ee75a0e1cd2ae4b6d69b0a3850c7c/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+42
+43    <application
+43-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:26:5-69:19
+44        android:name="com.example.smartedge.MainApplication"
+44-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:27:9-40
+45        android:allowBackup="true"
+45-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:28:9-35
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.15.0] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/e30ee75a0e1cd2ae4b6d69b0a3850c7c/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+47        android:dataExtractionRules="@xml/data_extraction_rules"
+47-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:29:9-65
+48        android:debuggable="true"
+49        android:extractNativeLibs="false"
+50        android:fullBackupContent="@xml/backup_rules"
+50-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:30:9-54
+51        android:icon="@mipmap/ic_launcher"
+51-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:31:9-43
+52        android:label="@string/app_name"
+52-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:32:9-41
+53        android:roundIcon="@mipmap/ic_launcher_round"
+53-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:33:9-54
+54        android:supportsRtl="true"
+54-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:34:9-35
+55        android:theme="@style/Theme.SmartEdgePanel" >
+55-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:35:9-52
+56        <activity
+56-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:38:9-48:20
+57            android:name="com.example.smartedge.ui.MainActivity"
+57-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:39:13-44
+58            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+58-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:41:13-91
+59            android:exported="true"
+59-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:40:13-36
+60            android:supportsPictureInPicture="true"
+60-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:42:13-52
+61            android:theme="@style/Theme.SmartEdgePanel" >
+61-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:43:13-56
+62            <intent-filter>
+62-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:44:13-47:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:8:13-65
+63-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:8:21-62
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:9:13-73
+65-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:9:23-70
+66            </intent-filter>
+67        </activity>
+68
+69        <service
+69-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:50:9-57:19
+70            android:name="com.example.smartedge.service.EdgePanelService"
+70-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:51:13-53
+71            android:exported="false"
+71-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:52:13-37
+72            android:foregroundServiceType="specialUse" >
+72-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:53:13-55
+73            <property
+73-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:54:13-56:93
+74                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+74-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:55:17-76
+75                android:value="System Edge Panel Overlay providing floating launcher UI." />
+75-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:56:17-90
+76        </service>
+77
+78        <receiver
+78-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:59:9-67:20
+79            android:name="com.example.smartedge.receiver.BootReceiver"
+79-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:60:13-50
+80            android:enabled="true"
+80-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:61:13-35
+81            android:exported="true" >
+81-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:62:13-36
+82            <intent-filter>
+82-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:63:13-66:29
+83                <action android:name="android.intent.action.BOOT_COMPLETED" />
+83-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:64:17-79
+83-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:64:25-76
+84                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+84-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:65:17-84
+84-->/storage/emulated/0/Download/SmartEdgePanel_project/SmartEdgePanel/app/src/main/AndroidManifest.xml:65:25-81
+85            </intent-filter>
+86        </receiver>
+87
+88        <provider
+88-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/463515ff28e7abb577a6d40c07bc2986/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+89            android:name="androidx.startup.InitializationProvider"
+89-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/463515ff28e7abb577a6d40c07bc2986/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+90            android:authorities="com.example.smartedge.androidx-startup"
+90-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/463515ff28e7abb577a6d40c07bc2986/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+91            android:exported="false" >
+91-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/463515ff28e7abb577a6d40c07bc2986/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+92            <meta-data
+92-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/463515ff28e7abb577a6d40c07bc2986/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+93-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/463515ff28e7abb577a6d40c07bc2986/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+94                android:value="androidx.startup" />
+94-->[androidx.emoji2:emoji2:1.3.0] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/463515ff28e7abb577a6d40c07bc2986/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+95            <meta-data
+95-->[androidx.lifecycle:lifecycle-process:2.8.7] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/ecc377460aa5fdcaeb6c0e5df5fb41fb/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+96-->[androidx.lifecycle:lifecycle-process:2.8.7] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/ecc377460aa5fdcaeb6c0e5df5fb41fb/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+97                android:value="androidx.startup" />
+97-->[androidx.lifecycle:lifecycle-process:2.8.7] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/ecc377460aa5fdcaeb6c0e5df5fb41fb/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+100                android:value="androidx.startup" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+101        </provider>
+102
+103        <activity
+103-->[androidx.compose.ui:ui-test-manifest:1.7.5] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/5ac4b8bbe6d4289461d5ec50d709e590/transformed/ui-test-manifest-1.7.5/AndroidManifest.xml:23:9-25:39
+104            android:name="androidx.activity.ComponentActivity"
+104-->[androidx.compose.ui:ui-test-manifest:1.7.5] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/5ac4b8bbe6d4289461d5ec50d709e590/transformed/ui-test-manifest-1.7.5/AndroidManifest.xml:24:13-63
+105            android:exported="true" />
+105-->[androidx.compose.ui:ui-test-manifest:1.7.5] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/5ac4b8bbe6d4289461d5ec50d709e590/transformed/ui-test-manifest-1.7.5/AndroidManifest.xml:25:13-36
+106        <activity
+106-->[androidx.compose.ui:ui-tooling-android:1.7.5] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/98c886fddde5ff889a9d5911ac40b938/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+107            android:name="androidx.compose.ui.tooling.PreviewActivity"
+107-->[androidx.compose.ui:ui-tooling-android:1.7.5] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/98c886fddde5ff889a9d5911ac40b938/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+108            android:exported="true" />
+108-->[androidx.compose.ui:ui-tooling-android:1.7.5] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/98c886fddde5ff889a9d5911ac40b938/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+109
+110        <receiver
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+111            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+112            android:directBootAware="false"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+113            android:enabled="true"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+114            android:exported="true"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+115            android:permission="android.permission.DUMP" >
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+117                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+118            </intent-filter>
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+120                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+123                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+126                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/data/com.termux/files/home/.gradle/caches/9.7.0/transforms/147875175511c9a3df46cb64f2bb07cf/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+127            </intent-filter>
+128        </receiver>
+129    </application>
+130
+131</manifest>

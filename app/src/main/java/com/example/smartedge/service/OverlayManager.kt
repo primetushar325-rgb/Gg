@@ -1,6 +1,7 @@
 package com.example.smartedge.service
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.PixelFormat
 import android.hardware.camera2.CameraManager
 import android.os.Build
@@ -13,6 +14,7 @@ import android.view.WindowManager
 import android.widget.Toast
 import androidx.compose.ui.platform.ComposeView
 import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ViewModelStore
 import androidx.lifecycle.ViewModelStoreOwner
 import androidx.lifecycle.setViewTreeLifecycleOwner

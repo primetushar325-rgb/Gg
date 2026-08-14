@@ -17,9 +17,8 @@ object AppUtils {
             }
             val resolveInfos = pm.queryIntentActivities(mainIntent, PackageManager.GET_META_DATA)
             if (resolveInfos.isNotEmpty()) {
-                val activityInfo = resolveInfos[0].activityInfo
                 val supportsPip = if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-                    (activityInfo.flags and ActivityInfo.FLAG_SUPPORTS_PICTURE_IN_PICTURE) != 0
+                    pm.hasSystemFeature(PackageManager.FEATURE_PICTURE_IN_PICTURE)
                 } else false
 
                 if (supportsPip) {
